@@ -1,0 +1,230 @@
+import {Daichiro} from '@/app/2025/articles/Daichiro'
+import {Sashimi} from '@/app/2025/articles/Sashimi'
+import {Nanocloudx} from '@/app/2025/articles/Nanocloudx'
+import {Fuyutsubaki} from '@/app/2025/articles/Fuyutsubaki'
+import {Arushiro} from '@/app/2025/articles/Arushiro'
+import {Kinoppyd} from '@/app/2025/articles/Kinoppyd'
+import {Kusano} from '@/app/2025/articles/Kusano'
+import {Berserker} from '@/app/2025/articles/Berserker'
+import {Quisty} from '@/app/2025/articles/Quisty'
+import {ShiratamaIori} from '@/app/2025/articles/ShiratamaIori'
+import {Metamon} from '@/app/2025/articles/Metamon'
+import {Dera} from '@/app/2025/articles/Dera'
+import {Nag4} from '@/app/2025/articles/Nag4'
+import {Nagaitan} from '@/app/2025/articles/Nagaitan'
+import {Mokuji} from '@/app/2025/articles/Mokuji'
+import {Prologue} from '@/app/2025/articles/Prologue'
+import {Atogaki} from '@/app/2025/articles/Atogaki'
+import {Omake2} from '@/app/2025/articles/Omake2'
+import {Okuduke} from '@/app/2025/articles/Okuduke'
+import {ArticleInfo} from '@/app/lib'
+import {Omake1} from '@/app/2025/articles/Omake1'
+
+export const articleInfoList: ArticleInfo[] = [
+  {
+    id: 'mokuji',
+    component: <Mokuji/>,
+    totalPage: 1,
+    title: '目次',
+    description: '',
+    atogaki: '',
+    authorName: '',
+    authorImage: '',
+  },
+  {
+    id: 'prologue',
+    component: <Prologue/>,
+    totalPage: 2,
+    title: 'プロローグ',
+    description: '',
+    atogaki: '',
+    authorName: '',
+    authorImage: '',
+  },
+  {
+    id: 'omake1',
+    component: <Omake1/>,
+    totalPage: 1,
+    title: 'おまけ',
+    description: '',
+    atogaki: '',
+    authorName: '',
+    authorImage: '',
+  },
+  {
+    id: 'sashimi',
+    component: <Sashimi/>,
+    totalPage: 1,
+    title: '執筆中',
+    description: '執筆中',
+    atogaki: '執筆中',
+    authorName: 'sashimi',
+    authorImage: '/2025/authors/sashimi.png',
+  },
+  {
+    id: 'metamon',
+    component: <Metamon/>,
+    totalPage: 1,
+    title: '執筆中',
+    description: '執筆中',
+    atogaki: '執筆中',
+    authorName: 'めたもん',
+    authorImage: '/2025/authors/metamon.png',
+  },
+  {
+    id: 'kusano',
+    component: <Kusano/>,
+    totalPage: 1,
+    title: '執筆中',
+    description: '執筆中',
+    atogaki: '執筆中',
+    authorName: 'kusano_k',
+    authorImage: '/2025/authors/kusano.png',
+    authorLinkX: 'kusano_k',
+  },
+  {
+    id: 'arushiro',
+    component: <Arushiro/>,
+    totalPage: 1,
+    title: '執筆中',
+    description: '執筆中',
+    atogaki: '執筆中',
+    authorName: 'あるしろ',
+    authorImage: '/2025/authors/arushiro.png',
+  },
+  {
+    id: 'quisty',
+    component: <Quisty/>,
+    totalPage: 1,
+    title: '執筆中',
+    description: '執筆中',
+    atogaki: '執筆中',
+    authorName: 'きすちぃ',
+    authorImage: '/2025/authors/quisty.png',
+    authorLinkX: 'Quisty',
+    authorLinkWeb: 'lit.link/Quisty'
+  },
+  {
+    id: 'berserker',
+    component: <Berserker/>,
+    totalPage: 1,
+    title: '執筆中',
+    description: '執筆中',
+    atogaki: '執筆中',
+    authorName: '狂戦士P',
+    authorImage: '/2025/authors/berserker.png',
+  },
+  {
+    id: 'dera',
+    component: <Dera/>,
+    totalPage: 1,
+    title: '執筆中',
+    description: '執筆中',
+    atogaki: '執筆中',
+    authorName: 'チンピラD',
+    authorImage: '/2025/authors/dera.png',
+  },
+  {
+    id: 'kinoppyd',
+    component: <Kinoppyd/>,
+    totalPage: 1,
+    title: '執筆中',
+    description: '執筆中',
+    atogaki: '執筆中',
+    authorName: 'kinoppyd',
+    authorImage: '/2025/authors/kinoppyd.jpeg',
+  },
+  {
+    id: 'nanocloudx',
+    component: <Nanocloudx/>,
+    totalPage: 1,
+    title: '執筆中',
+    description: '執筆中',
+    atogaki: '執筆中',
+    authorName: 'なのくろ',
+    authorImage: '/2025/authors/nanocloudx.jpg',
+    authorLinkX: 'nanocloudx',
+    authorLinkWeb: 'wwww.dev',
+  },
+  {
+    id: 'shiratamaIori',
+    component: <ShiratamaIori/>,
+    totalPage: 1,
+    title: '執筆中',
+    description: '執筆中',
+    atogaki: '執筆中',
+    authorName: '白玉いおり',
+    authorImage: '/2025/authors/shiratamaIori.jpg',
+    authorLinkX: 'iori_nnnn',
+  },
+  {
+    id: 'fuyutsubaki',
+    component: <Fuyutsubaki/>,
+    totalPage: 1,
+    title: '執筆中',
+    description: '執筆中',
+    atogaki: '執筆中',
+    authorName: '冬椿',
+    authorImage: '/2025/authors/fuyutsubaki.png',
+  },
+  {
+    id: 'nagaitan',
+    component: <Nagaitan/>,
+    totalPage: 1,
+    title: '執筆中',
+    description: '執筆中',
+    atogaki: '執筆中',
+    authorName: 'ながいたん',
+    authorImage: '/2025/authors/nagaitan.jpeg',
+  },
+  {
+    id: 'nag4',
+    component: <Nag4/>,
+    totalPage: 1,
+    title: '執筆中',
+    description: '執筆中',
+    atogaki: '執筆中',
+    authorName: 'nag4',
+    authorImage: '/2025/authors/nag4.png',
+  },
+  {
+    id: 'omake2',
+    component: <Omake2/>,
+    totalPage: 1,
+    title: 'おまけ',
+    description: '',
+    atogaki: '',
+    authorName: '',
+    authorImage: '',
+  },
+  {
+    id: 'daichiro',
+    component: <Daichiro/>,
+    totalPage: 1,
+    title: '執筆中',
+    description: '執筆中',
+    atogaki: '執筆中',
+    authorName: 'だいちろ',
+    authorImage: '/2025/authors/daichiro.png',
+  },
+  {
+    id: 'atogaki',
+    component: <Atogaki/>,
+    totalPage: 2,
+    title: 'あとがき',
+    description: '',
+    atogaki: '',
+    authorName: '',
+    authorImage: '',
+  },
+  {
+    id: 'okuduke',
+    component: <Okuduke/>,
+    totalPage: 1,
+    title: '奥付',
+    description: '',
+    atogaki: '',
+    authorName: '',
+    authorImage: '',
+  },
+]

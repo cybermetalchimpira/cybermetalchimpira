@@ -6,6 +6,9 @@ export default function Page() {
         <a href={'/2024'} style={{fontSize: '1.5rem'}}>2024</a>
       </p>
       <p>
+        <a href={'/2025'} style={{fontSize: '1.5rem'}}>2025</a>
+      </p>
+      <p>
         <a href={'https://github.com/nanocloudx/cybermetalchimpira'} style={{fontSize: '1.5rem'}}>GitHub</a>
       </p>
     </div>
