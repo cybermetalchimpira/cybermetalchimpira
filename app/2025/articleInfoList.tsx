@@ -71,7 +71,7 @@ export const articleInfoList: ArticleInfo[] = [
     description: 'みんはやにハマってしまった話',
     atogaki: 'ガチ勢はもっとやばい早押しテクを使っています',
     authorName: 'tayama0324',
-    authorImage: '/2025/authors/tayama.png',
+    authorImage: '/2025/authors/tayama.jpg',
   },
   {
     id: 'kusano',
@@ -134,7 +134,7 @@ export const articleInfoList: ArticleInfo[] = [
     description: '昨今のクマ被害を見聞きして思い出したので',
     atogaki: 'この経験のおかげで、クマ報道に冷静でいられる',
     authorName: 'かえで@office_acer',
-    authorImage: '/2025/authors/sekiyasu.png',
+    authorImage: '/2025/authors/sekiyasu.jpg',
   },
   {
     id: 'quisty',
