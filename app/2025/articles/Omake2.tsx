@@ -1,4 +1,3 @@
-import {Image} from '@/components/Image'
 import {Page} from '@/components/Page'
 import {getArticleInfo, getStartPage} from '@/app/lib'
 import {articleInfoList} from '@/app/2025/articleInfoList'

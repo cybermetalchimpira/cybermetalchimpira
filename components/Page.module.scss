@@ -8,13 +8,13 @@
   overflow: hidden;
 
   &.even {
-    padding-left: 16mm;
-    padding-right: 24mm;
+    padding-left: 14mm;
+    padding-right: 26mm;
   }
 
   &.odd {
-    padding-left: 24mm;
-    padding-right: 16mm;
+    padding-left: 26mm;
+    padding-right: 14mm;
   }
 
   &.prologue {
@@ -37,13 +37,13 @@
   color: #555;
 
   &.even {
-    left: calc(50% - 4mm);
-    right: calc(50% + 4mm);
+    left: calc(50% - 6mm);
+    right: calc(50% + 6mm);
   }
 
   &.odd {
-    left: calc(50% + 4mm);
-    right: calc(50% - 4mm);
+    left: calc(50% + 6mm);
+    right: calc(50% - 6mm);
   }
 }
 

@@ -10,8 +10,8 @@ export function Okuduke() {
     <div id={info.id}>
       <Page pageNumber={startPage} hidePageNumber>
         <OkudukeLayout
-          title={'サイバーメタルチンピラ2024'}
-          publishDate={'2025年12月30日'}
+          title={'サイバーメタルチンピラ2025'}
+          publishDate={'2025年12月31日'}
           event={'コミックマーケット107'}
           publisher={'サイバーメタルチンピラ一同'}
           contact={'nanocloudx@gmail.com'}

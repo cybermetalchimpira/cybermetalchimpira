@@ -1,6 +1,5 @@
 import {Page} from '@/components/Page'
 import {Title} from '@/components/Title'
-import {Image} from '@/components/Image'
 import {getArticleInfo, getStartPage} from '@/app/lib'
 import {articleInfoList} from '@/app/2025/articleInfoList'
 
