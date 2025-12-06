@@ -1,3 +1,4 @@
+import {ArticleInfo} from '@/app/lib'
 import {Nanocloudx} from '@/app/2025/articles/Nanocloudx'
 import {Fuyutsubaki} from '@/app/2025/articles/Fuyutsubaki'
 import {Arushiro} from '@/app/2025/articles/Arushiro'
@@ -13,11 +14,11 @@ import {Prologue} from '@/app/2025/articles/Prologue'
 import {Atogaki} from '@/app/2025/articles/Atogaki'
 import {Omake2} from '@/app/2025/articles/Omake2'
 import {Okuduke} from '@/app/2025/articles/Okuduke'
-import {ArticleInfo} from '@/app/lib'
 import {Omake1} from '@/app/2025/articles/Omake1'
 import {Tayama} from '@/app/2025/articles/Tayama'
 import {Sekiyasu} from '@/app/2025/articles/Sekiyasu'
-import {Kuri} from '@/app/2025/articles/Kuri'
+import {Daichiro} from '@/app/2025/articles/Daichiro'
+import {ShiratamaIori} from '@/app/2025/articles/ShiratamaIori'
 
 export const articleInfoList: ArticleInfo[] = [
   {
@@ -56,7 +57,7 @@ export const articleInfoList: ArticleInfo[] = [
     totalPage: 19,
     title: '国政政党をつくってみた',
     description: '最短最速で国政政党を爆誕させる方法について実践解説',
-    atogaki: '執筆中',
+    atogaki: 'ねこかわいい',
     authorName: 'なのくろ',
     authorImage: '/2025/authors/nanocloudx.jpg',
     authorLinkX: 'nanocloudx',
@@ -68,7 +69,7 @@ export const articleInfoList: ArticleInfo[] = [
     totalPage: 10,
     title: 'クイズゲームのすすめ',
     description: 'みんはやにハマってしまった話',
-    atogaki: '執筆中',
+    atogaki: 'ガチ勢はもっとやばい早押しテクを使っています',
     authorName: 'tayama0324',
     authorImage: '/2025/authors/tayama.png',
   },
@@ -78,7 +79,7 @@ export const articleInfoList: ArticleInfo[] = [
     totalPage: 4,
     title: '目隠しをしてルービックキューブを揃える',
     description: 'ルービックキューブを見ずに揃える方法を解説します',
-    atogaki: 'いつかは5x5x5のキューブを揃えたい。',
+    atogaki: 'いつかは5x5x5のキューブを揃えたい',
     authorName: 'kusano_k',
     authorImage: '/2025/authors/kusano.png',
     authorLinkX: 'kusano_k',
@@ -95,12 +96,23 @@ export const articleInfoList: ArticleInfo[] = [
     authorLinkX: 'arushiro_ikumo'
   },
   {
+    id: 'shiratamaIori',
+    component: <ShiratamaIori/>,
+    totalPage: 1,
+    title: '執筆中',
+    description: '執筆中',
+    atogaki: '執筆中',
+    authorName: '白玉いおり',
+    authorImage: '/2025/authors/shiratamaIori.jpg',
+    authorLinkX: 'iori_nnnn',
+  },
+  {
     id: 'fuyutsubaki',
     component: <Fuyutsubaki/>,
     totalPage: 1,
     title: '様々な鉄',
     description: '鉄の紹介',
-    atogaki: '豆知識:鉄の4cm角の立方体は0.5kg',
+    atogaki: '鉄の4cm角の立方体は0.5kg',
     authorName: '7.85',
     authorImage: '/2025/authors/fuyutsubaki.png',
   },
@@ -147,16 +159,6 @@ export const articleInfoList: ArticleInfo[] = [
     authorImage: '/2025/authors/dera.png',
   },
   {
-    id: 'kuri',
-    component: <Kuri/>,
-    totalPage: 1,
-    title: 'クラファンで同人誌を作って商業誌になった話',
-    description: 'VTuberデザインブックのお話',
-    atogaki: '',
-    authorName: '小栗さえ',
-    authorImage: '/2025/authors/kuri.png',
-  },
-  {
     id: 'kinoppyd',
     component: <Kinoppyd/>,
     totalPage: 1,
@@ -185,6 +187,16 @@ export const articleInfoList: ArticleInfo[] = [
     atogaki: '執筆中',
     authorName: 'ながいたん',
     authorImage: '/2025/authors/nagaitan.jpeg',
+  },
+  {
+    id: 'daichiro',
+    component: <Daichiro/>,
+    totalPage: 4,
+    title: 'THIS IS サイバーメタルチンピラ',
+    description: '7コママンガ',
+    atogaki: '最高傑作です',
+    authorName: 'だいちろ',
+    authorImage: '/2025/authors/daichiro.png',
   },
   {
     id: 'omake2',

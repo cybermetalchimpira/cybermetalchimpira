@@ -3,8 +3,8 @@ import {Title} from '@/components/Title'
 import {getArticleInfo, getStartPage} from '@/app/lib'
 import {articleInfoList} from '@/app/2025/articleInfoList'
 
-export function Kuri() {
-  const info = getArticleInfo('kuri', articleInfoList)
+export function ShiratamaIori() {
+  const info = getArticleInfo('shiratamaIori', articleInfoList)
   const startPage = getStartPage(info.id, articleInfoList)
 
   return (
