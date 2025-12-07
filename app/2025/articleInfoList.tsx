@@ -156,7 +156,7 @@ export const articleInfoList: ArticleInfo[] = [
     description: '弱者男性による読書感想文です',
     atogaki: '家ではAudible、外ではKindleが習慣になりました',
     authorName: '匿名弱者男性',
-    authorImage: '/2025/authors/dera.png',
+    authorImage: '/2025/authors/dera.jpg',
   },
   {
     id: 'kinoppyd',
