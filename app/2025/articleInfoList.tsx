@@ -161,7 +161,7 @@ export const articleInfoList: ArticleInfo[] = [
   {
     id: 'kinoppyd',
     component: <Kinoppyd/>,
-    totalPage: 5,
+    totalPage: 4,
     title: 'トンチキな子供服',
     description: '子供服はかわいいですよ',
     atogaki: 'トンチキな服を着ている子供はかわいいです',
