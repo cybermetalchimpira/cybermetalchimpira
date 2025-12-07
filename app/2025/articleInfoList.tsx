@@ -18,7 +18,6 @@ import {Omake1} from '@/app/2025/articles/Omake1'
 import {Tayama} from '@/app/2025/articles/Tayama'
 import {Sekiyasu} from '@/app/2025/articles/Sekiyasu'
 import {Daichiro} from '@/app/2025/articles/Daichiro'
-import {ShiratamaIori} from '@/app/2025/articles/ShiratamaIori'
 
 export const articleInfoList: ArticleInfo[] = [
   {
@@ -94,17 +93,6 @@ export const articleInfoList: ArticleInfo[] = [
     authorName: 'あるしろ',
     authorImage: '/2025/authors/arushiro.png',
     authorLinkX: 'arushiro_ikumo'
-  },
-  {
-    id: 'shiratamaIori',
-    component: <ShiratamaIori/>,
-    totalPage: 1,
-    title: '執筆中',
-    description: '執筆中',
-    atogaki: '執筆中',
-    authorName: '白玉いおり',
-    authorImage: '/2025/authors/shiratamaIori.jpg',
-    authorLinkX: 'iori_nnnn',
   },
   {
     id: 'fuyutsubaki',
