@@ -12,7 +12,6 @@ import {Nagaitan} from '@/app/2025/articles/Nagaitan'
 import {Mokuji} from '@/app/2025/articles/Mokuji'
 import {Prologue} from '@/app/2025/articles/Prologue'
 import {Atogaki} from '@/app/2025/articles/Atogaki'
-import {Omake2} from '@/app/2025/articles/Omake2'
 import {Okuduke} from '@/app/2025/articles/Okuduke'
 import {Omake1} from '@/app/2025/articles/Omake1'
 import {Tayama} from '@/app/2025/articles/Tayama'
@@ -33,7 +32,7 @@ export const articleInfoList: ArticleInfo[] = [
   {
     id: 'prologue',
     component: <Prologue/>,
-    totalPage: 2,
+    totalPage: 3,
     title: 'プロローグ',
     description: '',
     atogaki: '',
@@ -65,7 +64,7 @@ export const articleInfoList: ArticleInfo[] = [
   {
     id: 'fuyutsubaki',
     component: <Fuyutsubaki/>,
-    totalPage: 1,
+    totalPage: 4,
     title: '様々な鉄',
     description: '鉄の紹介',
     atogaki: '鉄の4cm角の立方体は0.5kg',
@@ -113,6 +112,16 @@ export const articleInfoList: ArticleInfo[] = [
     authorName: 'あるしろ',
     authorImage: '/2025/authors/arushiro.png',
     authorLinkX: 'arushiro_ikumo'
+  },
+  {
+    id: 'nagaitan',
+    component: <Nagaitan/>,
+    totalPage: 5,
+    title: 'サイバーチンピラに絡まれた話',
+    description: '仕事中にいきなり電話がかかってきたんです',
+    atogaki: '子どもの風邪がうつって11月〜12月の3週間が無に消えました',
+    authorName: 'ながいたん',
+    authorImage: '/2025/authors/nagaitan.jpeg',
   },
   {
     id: 'quisty',
@@ -175,16 +184,6 @@ export const articleInfoList: ArticleInfo[] = [
     atogaki: '最高傑作です',
     authorName: 'だいちろ',
     authorImage: '/2025/authors/daichiro.png',
-  },
-  {
-    id: 'omake2',
-    component: <Omake2/>,
-    totalPage: 1,
-    title: 'おまけ',
-    description: '',
-    atogaki: '',
-    authorName: '',
-    authorImage: '',
   },
   {
     id: 'atogaki',
