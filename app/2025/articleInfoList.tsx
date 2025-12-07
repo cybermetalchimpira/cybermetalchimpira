@@ -55,7 +55,7 @@ export const articleInfoList: ArticleInfo[] = [
     totalPage: 19,
     title: '国政政党をつくってみた',
     description: '最短最速で国政政党を爆誕させる方法について実践解説',
-    atogaki: 'ねこかわいい',
+    atogaki: '衆議院と参議院と国会議事堂中央のカレーは全部味が違いますのよ',
     authorName: 'なのくろ',
     authorImage: '/2025/authors/nanocloudx.jpg',
     authorLinkX: 'nanocloudx',
