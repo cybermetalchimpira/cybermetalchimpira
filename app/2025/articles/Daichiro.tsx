@@ -1,5 +1,5 @@
 import {getArticleInfo, getStartPage} from '@/app/lib'
-import {articleInfoList} from '@/app/2024/articleInfoList'
+import {articleInfoList} from '@/app/2025/articleInfoList'
 import {FullImagePage} from '@/components/FullImagePage'
 
 export function Daichiro() {
