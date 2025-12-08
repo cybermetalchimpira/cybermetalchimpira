@@ -179,7 +179,7 @@ export const articleInfoList: ArticleInfo[] = [
     id: 'daichiro',
     component: <Daichiro/>,
     totalPage: 1,
-    title: 'THIS IS サイバーメタルチンピラ',
+    title: 'This is サイバーメタルチンピラ',
     description: '7コママンガ',
     atogaki: '最高傑作です',
     authorName: 'だいちろ',
