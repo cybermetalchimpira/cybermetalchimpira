@@ -7,11 +7,11 @@ export default function Page() {
   return (
     <div>
       <Navigation year={'2025'} articleInfoList={articleInfoList}/>
-      <PreviewHyoshiPage src={'/2025/hyoshi/hyoshi1.png'}/>
+      <PreviewHyoshiPage src={'/2025/hyoshi/hyoshi1.jpg'}/>
       <BlankPage />
       {articleInfoList.map((info) => info.component)}
       <BlankPage />
-      <PreviewHyoshiPage src={'/2025/hyoshi/hyoshi2.png'}/>
+      <PreviewHyoshiPage src={'/2025/hyoshi/hyoshi2.jpg'}/>
     </div>
   )
 }
